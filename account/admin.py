@@ -12,6 +12,7 @@ class UserAdmin(admin.ModelAdmin):
         return qs
 
     list_display = ('id', 'name', 'email', 'password')
+    list_filter = ('id', 'name', 'email')
     fk_fields = ('id','name','email')
 
 admin.site.site_header = "知行后台管理"

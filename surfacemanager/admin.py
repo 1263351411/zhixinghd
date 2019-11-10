@@ -9,6 +9,7 @@ class PublicationAdmin(admin.ModelAdmin):
         return qs
 
     list_display = ('id', 'author', 'paper_title', 'conference')
+    list_filter = ('id','author','paper_title')
     fk_fields = ('id','author','paper_title')
 
 admin.site.register(Publication,PublicationAdmin)
