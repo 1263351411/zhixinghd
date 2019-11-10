@@ -4,7 +4,7 @@ date:2019-11-10 23:36
 """
 
 from django.conf.urls import url
-from .views import Publications,test
+from .views import Publications
 
 # url前缀 /surfacemanager/
 urlpatterns = [
