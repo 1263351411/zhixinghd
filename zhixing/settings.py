@@ -25,7 +25,9 @@ SECRET_KEY = 'b9ou)-8lhj%(%wz#0^t%y@#sck2w!awyhnn)ccx6))9*io%3km'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*'
+]
 
 
 # Application definition
@@ -38,13 +40,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'account',
+    # 'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -55,7 +60,7 @@ ROOT_URLCONF = 'zhixing.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,6 +75,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'zhixing.wsgi.application'
 
+# CORS_ORIGIN_WHITELIST = (
+#     'http://127.0.0.1',
+#     'http://127.0.0.1:8000',
+#     'http://localhost',
+#     'http://localhost:8000',
+# )
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
@@ -103,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'zhixing',
+        'NAME': 'zhixinghd',
         'USER': 'root',
         'PASSWORD': '1234.com',
         'HOST': '10.1.1.28',
@@ -112,7 +123,7 @@ DATABASES = {
 }
 
 STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, "static"),
+     os.path.join(BASE_DIR, "/static/"),
  ]
 
 LOGGING = {
@@ -152,3 +163,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+SIMPLEUI_HOME_INFO = False
+
+
