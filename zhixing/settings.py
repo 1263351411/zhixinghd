@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'account',
+    'surfacemanager',
     # 'corsheaders',
 ]
 
@@ -158,6 +159,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+#自定义常量
+AUTH_EXPIRE = 8* 60 * 60 #8小时过期
+AUTH_HEADER = "HTTP_JWT" #浏览器端是jwt，服务器端被改写为全大写并加HTTP_前缀
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

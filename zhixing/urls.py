@@ -19,4 +19,5 @@ from django.urls import re_path,include
 urlpatterns = [
     re_path(r'^account/', include("account.urls")),
     re_path(r'^admin/', admin.site.urls),
+    re_path(r'^surfacemanager/',include("surfacemanager.urls"))
 ]
