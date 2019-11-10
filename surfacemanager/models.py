@@ -5,7 +5,7 @@ from django.db import models
 class Publication(models.Model):
     class Meta:
         db_table = 'publication'
-        verbose_name = verbose_name_plural = "用户信息"
+        verbose_name = verbose_name_plural = "publications"
 
     id = models.AutoField(primary_key=True)
     author = models.CharField(max_length=200, null=True,verbose_name="作者")
