@@ -1,0 +1,14 @@
+Junshuang Wu,Richong Zhang, Yongyi Mao, Hongyu Guo and Jinpeng Huai@Modeling Noisy Hierarchical Types in Fine-Grained Entity Typing: A Content-Based Weighting Approach. @IJCAI2019
+Fanshuang Kong, Richong Zhang, Hongyu Guo, Samuel Mensah, Zhiyuan Hu and Yongyi Mao@A Neural Bag-of-Words Modelling Framework for Link Prediction in Knowledge Bases with Sparse Connectivity. @WWW 2019
+Fanshuang Kong, Richong Zhang, Yongyi Mao and Ting Deng@LENA: Locality-Expanded Neural Embedding for Knowledge Base Completion.@AAAI 2019
+Richong Zhang, Xinyu Liu, Xinwei Chen, Zhaoqing Xu, Zhiyuan Hu, Yongyi Mao@Generating Chinese Ci with Designated Metrical Structure.@AAAI 2019
+Hongyu Guo, Yongyi Mao and Richong Zhang@MixUp as Locally Linear Out-Of-Manifold Regularization. @AAAI 2019
+Richong Zhang, Zhiyuan Hu, Hongyu Guo, Yongyi Mao@Syntax Encoding with Application in Authorship Attribution.@EMNLP 2018
+Yue Wang, Richong Zhang, Cheng Xu and Yongyi Mao@The APVA-TURBO Approach To Question Answering in Knowledge Base.@COLING 2018
+Jiajie Mei, Richong Zhang, Yongyi Mao and Ting Deng@On Link Prediction in Knowledge Bases: Max-K Criterion and Prediction Protocols.@SIGIR 2018
+Richong Zhang, Junpeng Li, Jiajie Mei and Yongyi Mao@Scalable Instance Reconstruction in Knowledge Bases via Relatedness Affiliated Embedding.@WWW 2018
+Xufeng Li, Jianlei Yang, Richong Zhang, Hongyuan Ma@A novel approach on Entity Linking for Encyclopedia Infoboxes@CCKS 2018
+Yue Wang, Richong Zhang@基于动态规划的知识库问答方法@CCKS 2018
+Richong Zhang, Fanshuang Kong, Chenyue Wang, Yongyi Mao@Embedding of Hierarchically Typed Knowledge Bases.@AAAI 2018
+Chune Li, Yongyi Mao, Richong Zhang, Jinpeng Huai@On Hyper-Parameter Estimation In Empirical Bayes: A Revisit of The MacKay Algorithm@UAI 2016
+Jianfeng Wen, Jianxin Li, Yongyi Mao, Shini Chen, Richong Zhang@On the Representation and Embedding of Knowledge Bases beyond Binary Relations.@IJCAI 2016
