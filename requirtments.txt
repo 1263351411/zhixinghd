@@ -1,7 +1,7 @@
-Django==2.2
-django-simpleui==3.3
-mysqlclient==1.4.5
-pyjwt==1.7.1
-bcrypt==3.1.7
-simplejson==3.16.0
+Django
+django-simpleui
+mysqlclient
+pyjwt
+bcrypt
+simplejson
 django-simpleui
