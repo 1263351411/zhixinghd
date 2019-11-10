@@ -8,6 +8,7 @@ from django.db import models
 class User(models.Model):
     class Meta:
         db_table = 'user'
+        verbose_name = verbose_name_plural = "用户信息"
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=48, null=False)
     email = models.CharField(max_length=65, null=False, unique=True)
