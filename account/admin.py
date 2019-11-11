@@ -11,7 +11,7 @@ class UserAdmin(admin.ModelAdmin):
         qs = super().get_queryset(request)
         return qs
 
-    list_display = ('id', 'name', 'email', 'password')
+    list_display = ('id', 'name', 'email')
     list_filter = ('id', 'name', 'email')
     fk_fields = ('id','name','email')
 
