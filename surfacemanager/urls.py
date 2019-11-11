@@ -10,5 +10,5 @@ from .views import Publications
 urlpatterns = [
     url(r'^publications$', Publications.as_view()), #publications
     url(r'^demos$', Publications.as_view()), #publications
-    # url(r'^test$',test)
+    # url(r'^test2$',test2)
 ]
