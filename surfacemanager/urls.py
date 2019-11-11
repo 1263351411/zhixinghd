@@ -9,5 +9,6 @@ from .views import Publications
 # url前缀 /surfacemanager/
 urlpatterns = [
     url(r'^publications$', Publications.as_view()), #publications
+    url(r'^demos$', Publications.as_view()), #publications
     # url(r'^test$',test)
 ]
